@@ -10,4 +10,7 @@ public class PraktikumPemlan_modul1 {
     public void setKategoriBuku(String kategoriBuku){
         this.kategoriBuku = kategoriBuku;
     }
+    public void setPenulisBuku(String penulisBuku){
+
+    }
 }
