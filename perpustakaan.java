@@ -4,7 +4,7 @@ public class perpustakaan {
     private String kategoriBuku;
     private String[] penulisBuku;
     private int tahunTerbitBuku;
-    final private int maksPanjang = 50;
+    final private int maksPanjang = 100;
 
     public void setNamaPerpustakaan(String namaPerpustakaan){
         this.namaPerpustakaan = namaPerpustakaan;
