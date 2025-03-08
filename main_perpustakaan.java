@@ -146,7 +146,7 @@ public class main_perpustakaan {
         politik3.setPenulisBuku(new String[]{"Nancy MacLean"});
         politik3.setTahunTerbitBuku(2017);
         perpustakaan politik4 = new perpustakaan();
-        politik4.setJudulBuku("The Fifthe Risk");
+        politik4.setJudulBuku("The Fifth Risk");
         politik4.setKategoriBuku("Politik");
         politik4.setPenulisBuku(new String[]{"Michael Lewis"});
         politik4.setTahunTerbitBuku(2018);
@@ -228,5 +228,7 @@ public class main_perpustakaan {
         fiksi3.dataBuku();
         fiksi4.dataBuku();
         fiksi5.dataBuku();
+        
+        perpustakaan.akhiran();
     }
 }
