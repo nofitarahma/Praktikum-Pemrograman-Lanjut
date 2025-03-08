@@ -78,4 +78,9 @@ public class perpustakaan {
         panjangBarisMaks("-Tahun Terbit: " + tahunTerbitBuku);
         border2();
     }
+    public void akhiran(){
+        border1();
+        panjangBarisMaks("||" + ditengah("BUKU-BUKU TERSEBUT BERDASARKAN KATEGORINYA ") + "||");
+        border1();
+    }
 }
